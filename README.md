@@ -1,0 +1,2 @@
+# IIT-BOOKSTORE
+IIT Bookstore is an android app by which a user (Students and faculty members) can access information about the books they issued from the library. It can know about its past due and future due about all the books issued from the library. It can search for the books and know which books are available and which are not if some books are not available so user can register itself for the waitlist and when the books became available it will be assigned to the user who 1st register for the waitlist.
