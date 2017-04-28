@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/f_name"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="First Name"
+            android:background="#fff"
+            android:alpha="0.60"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff0000"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+</android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:id="@+id/l_name"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:hint="Last Name"
+                    android:background="#fff"
+                    android:alpha="0.60"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#ff0000"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Email ID"
+            android:background="#fff"
+            android:alpha="0.60"
+            android:inputType="textPersonName"
+            android:textColorHint="#ff0000"
+            android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/cwid"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="CWID"
+            android:background="#fff"
+            android:alpha="0.60"
+            android:inputType="text"
+            android:textColorHint="#ff0000"
+            android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Password"
+            android:background="#fff"
+            android:alpha="0.60"
+            android:inputType="textPassword"
+            android:textColorHint="#ff0000"
+            android:textSize="20sp" />
+
+</android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:textSize="30sp"
+            android:background="#3B0B17"
+            android:textColor="#FFFFFF"
+            android:alpha="0.70"
+            android:text="Register" />
+
+
+    </LinearLayout>

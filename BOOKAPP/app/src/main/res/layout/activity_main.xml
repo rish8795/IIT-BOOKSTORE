@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backu">
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@color/colorMainMenuButton"
+        android:textColor="#FFFFFF"
+        android:alpha="0.70"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="Login"
+
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="82dp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:background="@color/colorMainMenuButton"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:alpha="0.70"
+        android:text="SignUp"
+
+        android:textAllCaps="false"
+        android:layout_marginStart="25dp"
+        android:layout_alignBaseline="@+id/Login"
+        android:layout_alignBottom="@+id/Login"
+        android:layout_alignParentStart="true"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0.70"
+        android:background="@color/colorMainMenuButton"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:text="Search"
+        android:elevation="0dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="78dp"
+        android:layout_alignBottom="@+id/Login"
+        android:layout_centerHorizontal="true"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Illinois Tech Library"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

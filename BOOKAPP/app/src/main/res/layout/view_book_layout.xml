@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imagee" />
+    <TextView
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/imagee"
+        android:textSize="24dp"
+        android:id="@+id/bookID" />
+
+    <TextView
+        android:text="Author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/bookID"
+        android:layout_toRightOf="@+id/imagee"
+        android:textSize="12dp"
+        android:id="@+id/logID" />
+    <TextView
+        android:text="Quantity: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimeTextView"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/logID"
+        android:layout_below="@+id/bookID"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/available"
+        android:layout_alignTop="@+id/TimeTextView"
+        android:layout_toEndOf="@+id/TimeTextView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:id="@+id/isbn"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/logID"
+        android:visibility="gone" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:id="@+id/_ID"
+        android:layout_below="@+id/available"
+        android:layout_toEndOf="@+id/shelf"
+        android:visibility="gone" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shelf"
+        android:layout_below="@+id/logID"
+        android:layout_alignStart="@+id/logID"
+        android:visibility="gone" />
+
+</RelativeLayout>
